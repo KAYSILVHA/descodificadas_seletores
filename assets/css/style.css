@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fifth-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .red {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+div .blue {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: lightskyblue;
+}
+
+div .green {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+div .yellow {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.red.border-black {
+    border: 2px solid black;
+}
+
+.red.border-black:hover {
+    background-color: darkred;
+}
